@@ -1,0 +1,10 @@
+warm:
+Protokoll: NEC
+Adresse (Address): 0xDEA8
+Befehl (Command):  0x9
+-----------------------------------------------------------
+Cold:
+Protokoll: NEC
+Adresse (Address): 0xDEA8
+Befehl (Command):  0x15
+-----------------------------------------------------------
