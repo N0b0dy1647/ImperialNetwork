@@ -1,10 +1,10 @@
 1H:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0x6
+Protocol: NEC
+Address: 0xDEA8
+Command: 0x6
 -----------------------------------------------------------
 60s:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0x8
+Protocol: NEC
+Address: 0xDEA8
+Command: 0x8
 -----------------------------------------------------------

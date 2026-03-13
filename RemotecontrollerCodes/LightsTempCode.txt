@@ -1,15 +1,15 @@
-6500K:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0x16
+6500K
+Protocol: NEC
+Address: 0xDEA8
+Command: 0x16
 -----------------------------------------------------------
-4000K:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0xE
+4000K
+Protocol: NEC
+Address: 0xDEA8
+Command: 0xE
 -----------------------------------------------------------
-3000K:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0x14
+3000K
+Protocol: NEC
+Address: 0xDEA8
+Command: 0x14
 -----------------------------------------------------------

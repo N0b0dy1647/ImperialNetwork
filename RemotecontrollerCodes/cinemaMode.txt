@@ -1,4 +1,4 @@
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0xA
+Protocol: NEC
+Address: 0xDEA8
+Command: 0xA
 -----------------------------------------------------------

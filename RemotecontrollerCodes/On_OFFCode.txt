@@ -1,10 +1,10 @@
 ON:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0x1
+Protocol: NEC
+Address: 0xDEA8
+Command: 0x1
 -----------------------------------------------------------
 OFF:
-Protokoll: NEC
-Adresse (Address): 0xDEA8
-Befehl (Command):  0xFF
+Protocol: NEC
+Address: 0xDEA8
+Command: 0xFF
 -----------------------------------------------------------
