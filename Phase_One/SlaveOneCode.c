@@ -7,7 +7,7 @@
 // --- Configuration ---
 #define IR_SEND_PIN 13
 
-// Replace these with the codes you sniffed from your remote!
+// Reverse-engineered codes of the IR remote controller
 #define IR_ADDRESS    0xDEA8
 #define CMD_ON        0x01
 #define CMD_OFF       0xFF
@@ -223,7 +223,7 @@ void setup() {
   }
 
 
-  // START AP WITH VARIABLES
+  
   WiFi.softAP(ssid, password.c_str());
 
   IPAddress IP = WiFi.softAPIP();
