@@ -7,7 +7,7 @@
 // --- Configuration ---
 #define IR_SEND_PIN 13
 
-// Reverse-engineered codes of the IR remote controller
+// Replace these with the codes you sniffed from your remote!
 #define IR_ADDRESS    0xDEA8
 #define CMD_ON        0x01
 #define CMD_OFF       0xFF
@@ -223,6 +223,7 @@ void setup() {
   }
 
 
+  // START AP WITH VARIABLES
   WiFi.softAP(ssid, password.c_str());
 
   IPAddress IP = WiFi.softAPIP();
@@ -244,13 +245,13 @@ void setup() {
   server.on("/cinemaMode", handleCinemaMode);
   server.on("/1H",handle1HTimer);
   server.on("/60s",handle60sTimer);
-  server.on("/6500K",[]() { handlelightTemp(1); });
-  server.on("/4000K",[]() { handlelightTemp(2); });
-  server.on("/3000K",[]() { handlelightTemp(3); });
-  server.on("/dimmUp",[]() { handleDimmUpAndDown(1); });
-  server.on("/dimmDown",[]() { handleDimmUpAndDown(2); });
-  server.on("/coldLight",[]() { handleWarmColdLight(1); });
-  server.on("/warmLight",[]() { handleWarmColdLight(2); });
+  server.on("/6500K",[]() { handlelightTemp(1);});
+  server.on("/4000K",[]() { handlelightTemp(2);});
+  server.on("/3000K",[]() { handlelightTemp(3);});
+  server.on("/dimmUp",[]() { handleDimmUpAndDown(1);});
+  server.on("/dimmDown",[]() { handleDimmUpAndDown(2);});
+  server.on("/coldLight",[]() { handleWarmColdLight(1);});
+  server.on("/warmLight",[]() { handleWarmColdLight(2);});
   server.begin();
   Serial.println("Web server started");
 }
