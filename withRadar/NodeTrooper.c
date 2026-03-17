@@ -17,7 +17,7 @@
 #define CMD_ON  0x01
 #define CMD_OFF 0xFF
 
-// IMPORTANT: Set this to 2 for NodeTrooper 47, and to 3 for NodeTrooper 16!
+// Set this to 2 for NodeTrooper 47, and to 3 for NodeTrooper 16!
 const uint8_t MY_ID = 2; 
 
 // --- Configuration Radar from s3km1110 Libary ---
